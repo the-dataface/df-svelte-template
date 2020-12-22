@@ -249,9 +249,11 @@ input[type="range"]:focus::-ms-fill-upper {
   background: var(--background);
 }
 a {
+  transition: color var(--animation-duration);
   color: var(--links);
 }
 a:hover {
+  color: var(--focus);
 }
 img,
 video {
