@@ -1,0 +1,14 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "Example.svelte",
+    "Icon.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { onMount } from \"svelte\";\n  import Icon from \"../helpers/Icon.svelte\";\n  import markup from \"../../assets/copy/markup.json\";\n</script>\n\n<style>\n  section {\n    padding: 1rem;\n  }\n\n  div {\n    margin-bottom: 2rem;\n  }</style>\n\n<section>\n  <div>\n    <h1>{markup.headline}</h1>\n  </div>\n\n  <div>\n    <p>\n      Hello svelter! Here is an inline svg icon:\n      <!-- icon from tabler (see styling in global.css -->\n      <!-- {@html moodSmile} -->\n      <Icon name=\"feather\" />\n    </p>\n  </div>\n</section>\n",
+    "<!-- From The Pudding -->\n<script>\n  import feather from \"feather-icons\";\n  export const directions = [\"n\", \"ne\", \"e\", \"se\", \"s\", \"sw\", \"w\", \"nw\"];\n\n  export let name;\n  export let direction = \"n\";\n  export let strokeWidth;\n  export let stroke;\n\n  $: icon = feather.icons[name];\n  $: rotation = directions.indexOf(direction) * 45;\n  $: if (icon) {\n    if (stroke) icon.attrs[\"stroke\"] = stroke;\n    if (strokeWidth) icon.attrs[\"stroke-width\"] = strokeWidth;\n  }\n</script>\n\n<style>\n  svg {\n    width: 1em;\n    height: 1em;\n    overflow: visible;\n    transform-origin: 50% 50%;\n  }</style>\n\n{#if icon}\n  <svg {...icon.attrs} style={`transform: rotate(${rotation}deg);`}>\n    <g>\n      {@html icon.contents}\n    </g>\n  </svg>\n{/if}\n"
+  ],
+  "names": [],
+  "mappings": "AAOE,OAAO,eAAC,CAAC,AACP,OAAO,CAAE,IAAI,AACf,CAAC,AAED,GAAG,eAAC,CAAC,AACH,aAAa,CAAE,IAAI,AACrB,CAAC;ACMD,GAAG,eAAC,CAAC,AACH,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,CACX,QAAQ,CAAE,OAAO,CACjB,gBAAgB,CAAE,GAAG,CAAC,GAAG,AAC3B,CAAC"
+}

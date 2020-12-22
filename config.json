@@ -1,0 +1,22 @@
+{
+  "google": {
+    "sheet": [],
+    "doc": [
+      {
+        "id": "1Sdq_LMV3_yAvRtkybEv7L665C9iYDR96zoUEETk7fAs",
+        "filepath": "src/assets/copy/copy.json"
+      }
+    ]
+  },
+  "fontAwesome": {
+    "active": true,
+    "kitId": "fe0f52225e"
+  },
+  "fonts": [
+    {
+      "name": "Inter",
+      "weights": ["400", "500", "700"],
+      "italics": []
+    }
+  ]
+}
