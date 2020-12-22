@@ -10,20 +10,19 @@ Based on The Pudding's [starter template](https://github.com/the-pudding/svelte-
 - [LayerCake](https://layercake.graphics/) enabled by default for chart
 - [Water.css](https://github.com/kognise/water.css) for default styling
 - Includes csv, json, and svg imports by default
-- Pre-renders HTML on deploy with content that is hydrated on load
 - Configured to make easy deploment to Github Pages
 
 ## Quickstart
 
-New school: just click the `Use this template` button above.
+<!-- New school: just click the `Use this template` button above.
 
 Old school:
 
 ```bash
-npx degit the-pudding/svelte-starter my-project
-```
+# npx degit the-pudding/svelte-starter my-project
+``` -->
 
-Then in your local repo:
+Clone and run:
 
 ```bash
 npm install
@@ -52,8 +51,6 @@ make github
 
 There are a few stylesheets included by default in `template.html`. Modify `global.css` variables to make changes to Water.css defaults.
 
-You can use SCSS or another CSS preprocessor by installing the module (eg. `node-sass`) and including the property in the svelte-preprocess in the rollup config files.
-
 ## Google Docs
 
 - Create a Google Doc
@@ -75,3 +72,10 @@ Running `npm run fetch:sheet` at any point (even in new tab while server is runn
 ## Notes
 
 Any @html tags, e.g., `{@html user}` must be the child of a dom element so they can be properly hydrated.
+
+## To do
+
+- [ ] SCSS
+- [ ] Add in basic DF css and clean up globals for water
+- [ ] Google Fonts script
+- [ ] Makefile
