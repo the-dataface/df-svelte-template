@@ -7,7 +7,6 @@ import commonjs from "@rollup/plugin-commonjs";
 import svg from "rollup-plugin-svg";
 import json from "@rollup/plugin-json";
 import dsv from "@rollup/plugin-dsv";
-// import hmr from "rollup-plugin-hot";
 import execute from "rollup-plugin-execute";
 import { terser } from "rollup-plugin-terser";
 

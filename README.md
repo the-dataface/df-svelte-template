@@ -67,7 +67,7 @@ Running `npm run fetch:doc` at any point (even in new tab while server is runnin
 - In the address bar, grab the ID - eg. ...com/document/d/**1IiA5a5iCjbjOYvZVgPcjGzMy5PyfCzpPF-LnQdCdFI0**/edit
 - paste in the ID above into `config.json`
 
-Running `npm run fetch:sheet` at any point (even in new tab while server is running) will pull down the latest, and output a file to `src/data/shet.json` (or customize in the config file).
+Running `npm run fetch:sheet` at any point (even in new tab while server is running) will pull down the latest, and output a file to `src/data/sheet.json` (or customize in the config file).
 
 ## Notes
 
@@ -75,7 +75,7 @@ Any @html tags, e.g., `{@html user}` must be the child of a dom element so they 
 
 ## To do
 
-- [ ] SCSS
+- [x] SCSS
 - [ ] Add in basic DF css and clean up globals for water
 - [ ] Google Fonts script
-- [ ] Makefile
+- [x] Makefile

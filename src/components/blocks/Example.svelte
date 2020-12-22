@@ -4,15 +4,6 @@
   import markup from "../../assets/copy/markup.json";
 </script>
 
-<style type="text/scss">
-  section {
-    padding: 1rem;
-    div {
-      margin-bottom: 2rem;
-    }
-  }
-</style>
-
 <section>
   <div>
     <h1>{markup.headline}</h1>
@@ -29,3 +20,12 @@
     {/each}
   </div>
 </section>
+
+<style type="text/scss">
+  section {
+    padding: 1rem;
+    div {
+      margin-bottom: 2rem;
+    }
+  }
+</style>
