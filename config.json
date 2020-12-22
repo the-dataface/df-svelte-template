@@ -14,6 +14,11 @@
           "name": "Inter",
           "weights": ["400", "500", "700"],
           "italics": []
+        },
+        {
+          "name": "Tinos",
+          "weights": ["400", "700"],
+          "italics": ["400", "700"]
         }
       ]
     }

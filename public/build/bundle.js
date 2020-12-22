@@ -487,6 +487,17 @@ var app = (function () {
     				],
     				italics: [
     				]
+    			},
+    			{
+    				name: "Tinos",
+    				weights: [
+    					"400",
+    					"700"
+    				],
+    				italics: [
+    					"400",
+    					"700"
+    				]
     			}
     		]
     	}
