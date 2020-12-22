@@ -58,7 +58,7 @@ export default {
   plugins: [
     svelte({
       dev: !isProduction,
-      hydratable: isProduction,
+      hydratable: true,
       css: (css) => {
         css.write("bundle.css");
       },

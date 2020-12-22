@@ -22,9 +22,11 @@
   <div>
     <p>
       Hello svelter! Here is an inline svg icon:
-      <!-- icon from tabler (see styling in global.css -->
-      <!-- {@html moodSmile} -->
-      <Icon name="feather" />
+      <Icon name="feather" strokeWidth="1" stroke="orange" />
     </p>
+
+    {#each markup.lead as { value }}
+      <p>{value}</p>
+    {/each}
   </div>
 </section>
