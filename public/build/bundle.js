@@ -4053,12 +4053,12 @@ var app = (function () {
 
     function add_css() {
     	var style = element("style");
-    	style.id = "svelte-1l6t571-style";
-    	style.textContent = "svg.svelte-1l6t571{width:1em;height:1em;overflow:visible;transform-origin:50% 50%}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSWNvbi5zdmVsdGUiLCJzb3VyY2VzIjpbIkljb24uc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjwhLS0gRnJvbSBUaGUgUHVkZGluZyAtLT5cbjxzY3JpcHQ+XG4gIGltcG9ydCBmZWF0aGVyIGZyb20gXCJmZWF0aGVyLWljb25zXCI7XG4gIGV4cG9ydCBjb25zdCBkaXJlY3Rpb25zID0gW1wiblwiLCBcIm5lXCIsIFwiZVwiLCBcInNlXCIsIFwic1wiLCBcInN3XCIsIFwid1wiLCBcIm53XCJdO1xuXG4gIGV4cG9ydCBsZXQgbmFtZTtcbiAgZXhwb3J0IGxldCBkaXJlY3Rpb24gPSBcIm5cIjtcbiAgZXhwb3J0IGxldCBzdHJva2VXaWR0aDtcbiAgZXhwb3J0IGxldCBzdHJva2U7XG5cbiAgJDogaWNvbiA9IGZlYXRoZXIuaWNvbnNbbmFtZV07XG4gICQ6IHJvdGF0aW9uID0gZGlyZWN0aW9ucy5pbmRleE9mKGRpcmVjdGlvbikgKiA0NTtcbiAgJDogaWYgKGljb24pIHtcbiAgICBpZiAoc3Ryb2tlKSBpY29uLmF0dHJzW1wic3Ryb2tlXCJdID0gc3Ryb2tlO1xuICAgIGlmIChzdHJva2VXaWR0aCkgaWNvbi5hdHRyc1tcInN0cm9rZS13aWR0aFwiXSA9IHN0cm9rZVdpZHRoO1xuICB9XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICBzdmcge1xuICAgIHdpZHRoOiAxZW07XG4gICAgaGVpZ2h0OiAxZW07XG4gICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgdHJhbnNmb3JtLW9yaWdpbjogNTAlIDUwJTtcbiAgfTwvc3R5bGU+XG5cbnsjaWYgaWNvbn1cbiAgPHN2ZyB7Li4uaWNvbi5hdHRyc30gc3R5bGU9e2B0cmFuc2Zvcm06IHJvdGF0ZSgke3JvdGF0aW9ufWRlZyk7YH0+XG4gICAgPGc+XG4gICAgICB7QGh0bWwgaWNvbi5jb250ZW50c31cbiAgICA8L2c+XG4gIDwvc3ZnPlxuey9pZn1cbiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFtQkUsR0FBRyxlQUFDLENBQUMsQUFDSCxLQUFLLENBQUUsR0FBRyxDQUNWLE1BQU0sQ0FBRSxHQUFHLENBQ1gsUUFBUSxDQUFFLE9BQU8sQ0FDakIsZ0JBQWdCLENBQUUsR0FBRyxDQUFDLEdBQUcsQUFDM0IsQ0FBQyJ9 */";
+    	style.id = "svelte-xkupd-style";
+    	style.textContent = "svg.svelte-xkupd{width:1em;height:1em;overflow:visible;transform-origin:50% 50%}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSWNvbi5zdmVsdGUiLCJzb3VyY2VzIjpbIkljb24uc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjwhLS0gRnJvbSBUaGUgUHVkZGluZyAtLT5cbjxzY3JpcHQ+XG4gIGltcG9ydCBmZWF0aGVyIGZyb20gXCJmZWF0aGVyLWljb25zXCI7XG4gIGV4cG9ydCBjb25zdCBkaXJlY3Rpb25zID0gW1wiblwiLCBcIm5lXCIsIFwiZVwiLCBcInNlXCIsIFwic1wiLCBcInN3XCIsIFwid1wiLCBcIm53XCJdO1xuXG4gIGV4cG9ydCBsZXQgbmFtZTtcbiAgZXhwb3J0IGxldCBkaXJlY3Rpb24gPSBcIm5cIjtcbiAgZXhwb3J0IGxldCBzdHJva2VXaWR0aDtcbiAgZXhwb3J0IGxldCBzdHJva2U7XG5cbiAgJDogaWNvbiA9IGZlYXRoZXIuaWNvbnNbbmFtZV07XG4gICQ6IHJvdGF0aW9uID0gZGlyZWN0aW9ucy5pbmRleE9mKGRpcmVjdGlvbikgKiA0NTtcbiAgJDogaWYgKGljb24pIHtcbiAgICBpZiAoc3Ryb2tlKSBpY29uLmF0dHJzW1wic3Ryb2tlXCJdID0gc3Ryb2tlO1xuICAgIGlmIChzdHJva2VXaWR0aCkgaWNvbi5hdHRyc1tcInN0cm9rZS13aWR0aFwiXSA9IHN0cm9rZVdpZHRoO1xuICB9XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICBzdmcge1xuICAgIHdpZHRoOiAxZW07XG4gICAgaGVpZ2h0OiAxZW07XG4gICAgb3ZlcmZsb3c6IHZpc2libGU7XG4gICAgdHJhbnNmb3JtLW9yaWdpbjogNTAlIDUwJTtcbiAgfVxuPC9zdHlsZT5cblxueyNpZiBpY29ufVxuICA8c3ZnIHsuLi5pY29uLmF0dHJzfSBzdHlsZT17YHRyYW5zZm9ybTogcm90YXRlKCR7cm90YXRpb259ZGVnKTtgfT5cbiAgICA8Zz5cbiAgICAgIHtAaHRtbCBpY29uLmNvbnRlbnRzfVxuICAgIDwvZz5cbiAgPC9zdmc+XG57L2lmfVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CRSxHQUFHLGFBQUMsQ0FBQyxBQUNILEtBQUssQ0FBRSxHQUFHLENBQ1YsTUFBTSxDQUFFLEdBQUcsQ0FDWCxRQUFRLENBQUUsT0FBTyxDQUNqQixnQkFBZ0IsQ0FBRSxHQUFHLENBQUMsR0FBRyxBQUMzQixDQUFDIn0= */";
     	append_dev(document.head, style);
     }
 
-    // (27:0) {#if icon}
+    // (28:0) {#if icon}
     function create_if_block(ctx) {
     	let svg;
     	let g;
@@ -4094,10 +4094,10 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			add_location(g, file$1, 28, 4, 673);
+    			add_location(g, file$1, 29, 4, 674);
     			set_svg_attributes(svg, svg_data);
-    			toggle_class(svg, "svelte-1l6t571", true);
-    			add_location(svg, file$1, 27, 2, 602);
+    			toggle_class(svg, "svelte-xkupd", true);
+    			add_location(svg, file$1, 28, 2, 603);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -4111,7 +4111,7 @@ var app = (function () {
     				dirty & /*rotation*/ 2 && svg_style_value !== (svg_style_value = `transform: rotate(${/*rotation*/ ctx[1]}deg);`) && { style: svg_style_value }
     			]));
 
-    			toggle_class(svg, "svelte-1l6t571", true);
+    			toggle_class(svg, "svelte-xkupd", true);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(svg);
@@ -4122,7 +4122,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(27:0) {#if icon}",
+    		source: "(28:0) {#if icon}",
     		ctx
     	});
 
@@ -4250,7 +4250,7 @@ var app = (function () {
     class Icon extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-1l6t571-style")) add_css();
+    		if (!document.getElementById("svelte-xkupd-style")) add_css();
 
     		init(this, options, instance$1, create_fragment$1, safe_not_equal, {
     			directions: 2,
@@ -4323,10 +4323,10 @@ var app = (function () {
     		throw new Error("<Icon>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
     	}
     }
-    if (({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }) && undefined) { Icon = applyHmr$1({ m: ({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }), id: "/Users/samvickars/Desktop/CODE/df-svelte-template/src/components/helpers/Icon.svelte", hotOptions: {"noPreserveState":false,"noPreserveStateKey":"@!hmr","noReload":false,"optimistic":true,"acceptNamedExports":true,"acceptAccessors":true,"injectCss":true,"cssEjectDelay":100,"native":false,"compatVite":false,"importAdapterName":"___SVELTE_HMR_HOT_API_PROXY_ADAPTER","absoluteImports":true}, Component: Icon, ProxyAdapter: ProxyAdapterDom, acceptable: true, cssId: "svelte-1l6t571-style", nonCssHash: "o9rtk4", }); }
+    if (({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }) && undefined) { Icon = applyHmr$1({ m: ({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }), id: "/Users/samvickars/Desktop/CODE/df-svelte-template/src/components/helpers/Icon.svelte", hotOptions: {"noPreserveState":false,"noPreserveStateKey":"@!hmr","noReload":false,"optimistic":true,"acceptNamedExports":true,"acceptAccessors":true,"injectCss":true,"cssEjectDelay":100,"native":false,"compatVite":false,"importAdapterName":"___SVELTE_HMR_HOT_API_PROXY_ADAPTER","absoluteImports":true}, Component: Icon, ProxyAdapter: ProxyAdapterDom, acceptable: true, cssId: "svelte-xkupd-style", nonCssHash: "1fzn1rs", }); }
     var Icon$1 = Icon;
 
-    if (typeof add_css !== 'undefined' && !document.getElementById("svelte-1l6t571-style")) add_css();
+    if (typeof add_css !== 'undefined' && !document.getElementById("svelte-xkupd-style")) add_css();
 
     var headline = "This is a headline from a copy doc";
     var lead = [
@@ -4345,8 +4345,8 @@ var app = (function () {
 
     function add_css$1() {
     	var style = element("style");
-    	style.id = "svelte-1h7tfr1-style";
-    	style.textContent = "section.svelte-1h7tfr1{padding:1rem}div.svelte-1h7tfr1{margin-bottom:2rem}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRXhhbXBsZS5zdmVsdGUiLCJzb3VyY2VzIjpbIkV4YW1wbGUuc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjxzY3JpcHQ+XG4gIGltcG9ydCB7IG9uTW91bnQgfSBmcm9tIFwic3ZlbHRlXCI7XG4gIGltcG9ydCBJY29uIGZyb20gXCIuLi9oZWxwZXJzL0ljb24uc3ZlbHRlXCI7XG4gIGltcG9ydCBtYXJrdXAgZnJvbSBcIi4uLy4uL2Fzc2V0cy9jb3B5L21hcmt1cC5qc29uXCI7XG48L3NjcmlwdD5cblxuPHN0eWxlPlxuICBzZWN0aW9uIHtcbiAgICBwYWRkaW5nOiAxcmVtO1xuICB9XG5cbiAgZGl2IHtcbiAgICBtYXJnaW4tYm90dG9tOiAycmVtO1xuICB9PC9zdHlsZT5cblxuPHNlY3Rpb24+XG4gIDxkaXY+XG4gICAgPGgxPnttYXJrdXAuaGVhZGxpbmV9PC9oMT5cbiAgPC9kaXY+XG5cbiAgPGRpdj5cbiAgICA8cD5cbiAgICAgIEhlbGxvIHN2ZWx0ZXIhIEhlcmUgaXMgYW4gaW5saW5lIHN2ZyBpY29uOlxuICAgICAgPEljb24gbmFtZT1cImZlYXRoZXJcIiBzdHJva2VXaWR0aD1cIjFcIiBzdHJva2U9XCJvcmFuZ2VcIiAvPlxuICAgIDwvcD5cblxuICAgIHsjZWFjaCBtYXJrdXAubGVhZCBhcyB7IHZhbHVlIH19XG4gICAgICA8cD57dmFsdWV9PC9wPlxuICAgIHsvZWFjaH1cbiAgPC9kaXY+XG48L3NlY3Rpb24+XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT0UsT0FBTyxlQUFDLENBQUMsQUFDUCxPQUFPLENBQUUsSUFBSSxBQUNmLENBQUMsQUFFRCxHQUFHLGVBQUMsQ0FBQyxBQUNILGFBQWEsQ0FBRSxJQUFJLEFBQ3JCLENBQUMifQ== */";
+    	style.id = "svelte-c4o5ia-style";
+    	style.textContent = "section.svelte-c4o5ia.svelte-c4o5ia{padding:1rem}section.svelte-c4o5ia div.svelte-c4o5ia{margin-bottom:2rem}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiRXhhbXBsZS5zdmVsdGUiLCJzb3VyY2VzIjpbIkV4YW1wbGUuc3ZlbHRlIl0sInNvdXJjZXNDb250ZW50IjpbIjxzY3JpcHQ+XG4gIGltcG9ydCB7IG9uTW91bnQgfSBmcm9tIFwic3ZlbHRlXCI7XG4gIGltcG9ydCBJY29uIGZyb20gXCIuLi9oZWxwZXJzL0ljb24uc3ZlbHRlXCI7XG4gIGltcG9ydCBtYXJrdXAgZnJvbSBcIi4uLy4uL2Fzc2V0cy9jb3B5L21hcmt1cC5qc29uXCI7XG48L3NjcmlwdD5cblxuPHN0eWxlIHR5cGU9XCJ0ZXh0L3Njc3NcIj5zZWN0aW9uIHtcbiAgcGFkZGluZzogMXJlbTsgfVxuICBzZWN0aW9uIGRpdiB7XG4gICAgbWFyZ2luLWJvdHRvbTogMnJlbTsgfVxuPC9zdHlsZT5cblxuPHNlY3Rpb24+XG4gIDxkaXY+XG4gICAgPGgxPnttYXJrdXAuaGVhZGxpbmV9PC9oMT5cbiAgPC9kaXY+XG5cbiAgPGRpdj5cbiAgICA8cD5cbiAgICAgIEhlbGxvIHN2ZWx0ZXIhIEhlcmUgaXMgYW4gaW5saW5lIHN2ZyBpY29uOlxuICAgICAgPEljb24gbmFtZT1cImZlYXRoZXJcIiBzdHJva2VXaWR0aD1cIjFcIiBzdHJva2U9XCJvcmFuZ2VcIiAvPlxuICAgIDwvcD5cblxuICAgIHsjZWFjaCBtYXJrdXAubGVhZCBhcyB7IHZhbHVlIH19XG4gICAgICA8cD57dmFsdWV9PC9wPlxuICAgIHsvZWFjaH1cbiAgPC9kaXY+XG48L3NlY3Rpb24+XG4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBTXdCLE9BQU8sNEJBQUMsQ0FBQyxBQUMvQixPQUFPLENBQUUsSUFBSSxBQUFFLENBQUMsQUFDaEIscUJBQU8sQ0FBQyxHQUFHLGNBQUMsQ0FBQyxBQUNYLGFBQWEsQ0FBRSxJQUFJLEFBQUUsQ0FBQyJ9 */";
     	append_dev(document.head, style);
     }
 
@@ -4356,7 +4356,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (27:4) {#each markup.lead as { value }}
+    // (24:4) {#each markup.lead as { value }}
     function create_each_block(ctx) {
     	let p;
     	let t_value = /*value*/ ctx[0] + "";
@@ -4376,7 +4376,7 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			add_location(p, file$2, 27, 6, 484);
+    			add_location(p, file$2, 24, 6, 500);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -4392,7 +4392,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(27:4) {#each markup.lead as { value }}",
+    		source: "(24:4) {#each markup.lead as { value }}",
     		ctx
     	});
 
@@ -4478,14 +4478,14 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			add_location(h1, file$2, 17, 4, 267);
-    			attr_dev(div0, "class", "svelte-1h7tfr1");
-    			add_location(div0, file$2, 16, 2, 257);
-    			add_location(p, file$2, 21, 4, 316);
-    			attr_dev(div1, "class", "svelte-1h7tfr1");
-    			add_location(div1, file$2, 20, 2, 306);
-    			attr_dev(section, "class", "svelte-1h7tfr1");
-    			add_location(section, file$2, 15, 0, 245);
+    			add_location(h1, file$2, 14, 4, 283);
+    			attr_dev(div0, "class", "svelte-c4o5ia");
+    			add_location(div0, file$2, 13, 2, 273);
+    			add_location(p, file$2, 18, 4, 332);
+    			attr_dev(div1, "class", "svelte-c4o5ia");
+    			add_location(div1, file$2, 17, 2, 322);
+    			attr_dev(section, "class", "svelte-c4o5ia");
+    			add_location(section, file$2, 12, 0, 261);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
@@ -4573,7 +4573,7 @@ var app = (function () {
     class Example extends SvelteComponentDev {
     	constructor(options) {
     		super(options);
-    		if (!document.getElementById("svelte-1h7tfr1-style")) add_css$1();
+    		if (!document.getElementById("svelte-c4o5ia-style")) add_css$1();
     		init(this, options, instance$2, create_fragment$2, safe_not_equal, {});
 
     		dispatch_dev("SvelteRegisterComponent", {
@@ -4584,10 +4584,10 @@ var app = (function () {
     		});
     	}
     }
-    if (({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }) && undefined) { Example = applyHmr$1({ m: ({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }), id: "/Users/samvickars/Desktop/CODE/df-svelte-template/src/components/blocks/Example.svelte", hotOptions: {"noPreserveState":false,"noPreserveStateKey":"@!hmr","noReload":false,"optimistic":true,"acceptNamedExports":true,"acceptAccessors":true,"injectCss":true,"cssEjectDelay":100,"native":false,"compatVite":false,"importAdapterName":"___SVELTE_HMR_HOT_API_PROXY_ADAPTER","absoluteImports":true}, Component: Example, ProxyAdapter: ProxyAdapterDom, acceptable: true, cssId: "svelte-1h7tfr1-style", nonCssHash: "pphbs1", }); }
+    if (({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }) && undefined) { Example = applyHmr$1({ m: ({ url: (document.currentScript && document.currentScript.src || new URL('bundle.js', document.baseURI).href) }), id: "/Users/samvickars/Desktop/CODE/df-svelte-template/src/components/blocks/Example.svelte", hotOptions: {"noPreserveState":false,"noPreserveStateKey":"@!hmr","noReload":false,"optimistic":true,"acceptNamedExports":true,"acceptAccessors":true,"injectCss":true,"cssEjectDelay":100,"native":false,"compatVite":false,"importAdapterName":"___SVELTE_HMR_HOT_API_PROXY_ADAPTER","absoluteImports":true}, Component: Example, ProxyAdapter: ProxyAdapterDom, acceptable: true, cssId: "svelte-c4o5ia-style", nonCssHash: "z3tmy9", }); }
     var Example$1 = Example;
 
-    if (typeof add_css$1 !== 'undefined' && !document.getElementById("svelte-1h7tfr1-style")) add_css$1();
+    if (typeof add_css$1 !== 'undefined' && !document.getElementById("svelte-c4o5ia-style")) add_css$1();
 
     /* src/components/blocks/Header.svelte generated by Svelte v3.29.7 */
     const file$3 = "src/components/blocks/Header.svelte";
@@ -4607,7 +4607,7 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			add_location(header, file$3, 12, 0, 152);
+    			add_location(header, file$3, 13, 0, 153);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, header, anchor);
@@ -4694,7 +4694,7 @@ var app = (function () {
     			this.h();
     		},
     		h: function hydrate() {
-    			add_location(header, file$4, 5, 0, 37);
+    			add_location(header, file$4, 6, 0, 38);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, header, anchor);

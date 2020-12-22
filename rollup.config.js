@@ -1,5 +1,7 @@
 import svelte from "rollup-plugin-svelte-hot";
-import sveltePreprocess from "svelte-preprocess";
+import css from "rollup-plugin-css-only";
+import scss from "rollup-plugin-scss";
+import preprocess from "svelte-preprocess";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import svg from "rollup-plugin-svg";
@@ -9,17 +11,11 @@ import dsv from "@rollup/plugin-dsv";
 import execute from "rollup-plugin-execute";
 import { terser } from "rollup-plugin-terser";
 
-const isWatch = !!process.env.ROLLUP_WATCH;
-const isLiveReload = !!process.env.LIVERELOAD;
-const isDev = isWatch || isLiveReload;
-const isProduction = !isDev;
-const isHot = isWatch && !isLiveReload;
-
-const preprocess = sveltePreprocess({
-  postcss: {
-    plugins: [require("autoprefixer")],
-  },
-});
+const isWatch = !!process.env.ROLLUP_WATCH,
+  isLiveReload = !!process.env.LIVERELOAD,
+  isDev = isWatch || isLiveReload,
+  isProduction = !isDev,
+  isHot = isWatch && !isLiveReload;
 
 function serve() {
   let server;
@@ -65,7 +61,7 @@ export default {
       hot: isHot && {
         optimistic: true,
       },
-      preprocess,
+      preprocess: preprocess(),
     }),
     resolve({
       browser: true,
@@ -75,6 +71,8 @@ export default {
     json(),
     dsv(),
     svg(),
+    css({ output: "bundle.css" }),
+    scss(),
 
     // In dev mode, call `npm run start` once
     // the bundle has been generated

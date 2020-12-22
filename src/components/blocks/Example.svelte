@@ -4,13 +4,12 @@
   import markup from "../../assets/copy/markup.json";
 </script>
 
-<style>
+<style type="text/scss">
   section {
     padding: 1rem;
-  }
-
-  div {
-    margin-bottom: 2rem;
+    div {
+      margin-bottom: 2rem;
+    }
   }
 </style>
 
