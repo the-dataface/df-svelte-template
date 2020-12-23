@@ -31,6 +31,10 @@
     padding: 1rem;
     width: 100%;
     margin: auto;
+
+    // use our sass helper for $mobile or $tablet breakpoints
+    // @include respond-to($tablet) {
+    // }
     div {
       margin-bottom: 2rem;
     }
