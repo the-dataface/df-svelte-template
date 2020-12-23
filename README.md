@@ -11,7 +11,7 @@ Adapted from The Pudding's [starter template](https://github.com/the-pudding/sve
 <!-- - [LayerCake](https://layercake.graphics/) enabled by default for chart -->
 - [Water.css](https://github.com/kognise/water.css) for default styling
 - Includes csv, json, and svg imports by default
-- Configured to make easy deploment to Github Pages
+- Configured to make easy deployment to Github Pages
 
 ## Quickstart
 
