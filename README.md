@@ -1,13 +1,14 @@
-# Svelte Starter
+# DF Svelte Template
 
-Based on The Pudding's [starter template](https://github.com/the-pudding/svelte-starter).
+Adapted from The Pudding's [starter template](https://github.com/the-pudding/svelte-starter).
 
 #### Features
 
-- [HMR](https://github.com/rixo/svelte-hmr) for lightning fast development
+<!-- - [HMR](https://github.com/rixo/svelte-hmr) for lightning fast development -->
+
 - [Feather Icons](https://github.com/feathericons/feather) for simple/easy svg icons
 - [ArchieML](http://archieml.org/) for micro-CMS powered by Google Docs
-- [LayerCake](https://layercake.graphics/) enabled by default for chart
+<!-- - [LayerCake](https://layercake.graphics/) enabled by default for chart -->
 - [Water.css](https://github.com/kognise/water.css) for default styling
 - Includes csv, json, and svg imports by default
 - Configured to make easy deploment to Github Pages
@@ -41,7 +42,7 @@ Modify content in `src` and `public/assets`.
 
 ## Deploy
 
-If deploying to github pages:
+If deploying to github pages, set up GH pages to run from the main branch on `/docs` and then:
 
 ```bash
 make github
@@ -50,6 +51,31 @@ make github
 ## Style
 
 There are a few stylesheets included by default in `template.html`. Modify `global.css` variables to make changes to Water.css defaults.
+
+You can use scss in your svelte files.
+
+```bash
+<style type="text/scss">
+// import our mixins or specific helper files like "df-flex" like this
+  @import "../../styles/_helpers.scss";
+  @import "../../styles/_breakpoints.scss";
+  @import "../../styles/df-flex.scss";
+
+  // use our sass helper for $mobile or $tablet breakpoints
+  @include respond-to($mobile) {
+
+  }
+
+// use global variables like this
+color: var(--purple);
+</style>
+```
+
+#### Fonts
+
+Add google fonts and weights by editing `config.json` and then rerunning `npm run build` and `npm run dev`.
+
+You can also activate Font Awesome and Typekit kits by adding the kit ID and turning active to `true` in `config.json`.
 
 ## Google Docs
 
@@ -76,6 +102,6 @@ Any @html tags, e.g., `{@html user}` must be the child of a dom element so they 
 ## To do
 
 - [x] SCSS
-- [ ] Add in basic DF css and clean up globals for water
-- [ ] Google Fonts script
+- [x] Add in basic DF css and clean up globals for water
+- [x] Google Fonts script
 - [x] Makefile
