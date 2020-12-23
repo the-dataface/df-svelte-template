@@ -1,5 +1,5 @@
 import svelte from "rollup-plugin-svelte-hot";
-import css from "rollup-plugin-css-only";
+// import css from "rollup-plugin-css-only";
 import scss from "rollup-plugin-scss";
 import preprocess from "svelte-preprocess";
 import resolve from "@rollup/plugin-node-resolve";
@@ -54,6 +54,11 @@ export default {
     svelte({
       dev: !isProduction,
       hydratable: true,
+      onwarn: (warning, handler) => {
+        if (warning.code === "css-unused-selector") return;
+
+        handler(warning);
+      },
       css: (css) => {
         css.write("bundle.css");
       },
@@ -70,7 +75,7 @@ export default {
     json(),
     dsv(),
     svg(),
-    css({ output: "bundle.css" }),
+    // css({ output: "bundle.css" }),
     scss(),
 
     // In dev mode, call `npm run start` once

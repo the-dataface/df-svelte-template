@@ -1,0 +1,23 @@
+// BREAKPOINTS
+$breakpoints: (
+  bp2: 320px,
+  bp3: 480px,
+  bp4: 640px,
+  bp5: 800px,
+  bp6: 992px,
+  bp7: 1120px,
+  bp8: 1280px,
+);
+
+$mobile: bp4;
+$tablet: bp6;
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+      @content;
+    }
+  } @else {
+    @warn 'Unfortunately, no value could be retrieved from `#{$breakpoint}`. ' + 'Please make sure it is defined in `$breakpoints` map.';
+  }
+}

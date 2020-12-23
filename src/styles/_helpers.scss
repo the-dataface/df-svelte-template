@@ -1,0 +1,43 @@
+// MARGINS
+$max: 96;
+$offset: 4;
+$unit: "px";
+
+@mixin mp-loop($class-name, $style-name) {
+  $i: 0;
+  @while $i <= $max {
+    #{$class-name + $i} {
+      #{$style-name}: #{$i + $unit} !important;
+    }
+    $i: $i + $offset;
+  }
+}
+
+@include mp-loop(".m-t-", "margin-top");
+@include mp-loop(".m-r-", "margin-right");
+@include mp-loop(".m-b-", "margin-bottom");
+@include mp-loop(".m-l-", "margin-left");
+@include mp-loop(".m-x-", "margin");
+
+@include mp-loop(".p-t-", "padding-top");
+@include mp-loop(".p-r-", "padding-right");
+@include mp-loop(".p-b-", "padding-bottom");
+@include mp-loop(".p-l-", "padding-left");
+@include mp-loop(".p-x-", "padding");
+
+// MAX-WIDTHS
+$max: 1600;
+$offset: 160;
+$unit: "px";
+
+@mixin width-loop($class-name, $style-name) {
+  $i: 320;
+  @while $i <= $max {
+    #{$class-name + $i} {
+      #{$style-name}: #{$i + $unit};
+    }
+    $i: $i + $offset;
+  }
+}
+
+@include width-loop(".mw-", "max-width");

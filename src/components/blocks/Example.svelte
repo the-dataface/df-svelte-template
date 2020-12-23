@@ -4,7 +4,7 @@
   import markup from "../../assets/copy/markup.json";
 </script>
 
-<section>
+<section class="mw-640">
   <div>
     <h1>{markup.headline}</h1>
   </div>
@@ -22,10 +22,22 @@
 </section>
 
 <style type="text/scss">
+  // import our mixins or specific helper sass files like "df-flex"
+  @import "../../styles/_helpers.scss";
+  @import "../../styles/_breakpoints.scss";
+  @import "../../styles/df-flex.scss";
+
   section {
     padding: 1rem;
+    width: 100%;
+    margin: auto;
     div {
       margin-bottom: 2rem;
+    }
+
+    h1 {
+      // use variables from public/assets/styles/globals.css
+      color: var(--purple);
     }
   }
 </style>
