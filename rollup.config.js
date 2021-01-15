@@ -65,7 +65,16 @@ export default {
       hot: isHot && {
         optimistic: true,
       },
-      preprocess: preprocess(),
+      preprocess: preprocess({
+        sourceMap: !isProduction,
+        postcss: {
+          plugins: [
+            require("tailwindcss"),
+            require("autoprefixer"),
+            require("postcss-nesting"),
+          ],
+        },
+      }),
     }),
     resolve({
       browser: true,

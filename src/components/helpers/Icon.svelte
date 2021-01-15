@@ -16,6 +16,14 @@
   }
 </script>
 
+{#if icon}
+  <svg {...icon.attrs} style={`transform: rotate(${rotation}deg);`}>
+    <g>
+      {@html icon.contents}
+    </g>
+  </svg>
+{/if}
+
 <style>
   svg {
     width: 1em;
@@ -24,11 +32,3 @@
     transform-origin: 50% 50%;
   }
 </style>
-
-{#if icon}
-  <svg {...icon.attrs} style={`transform: rotate(${rotation}deg);`}>
-    <g>
-      {@html icon.contents}
-    </g>
-  </svg>
-{/if}

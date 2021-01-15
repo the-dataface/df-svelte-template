@@ -8,22 +8,15 @@ Adapted from The Pudding's [starter template](https://github.com/the-pudding/sve
 
 - [Feather Icons](https://github.com/feathericons/feather) for simple/easy svg icons
 - [ArchieML](http://archieml.org/) for micro-CMS powered by Google Docs
-<!-- - [LayerCake](https://layercake.graphics/) enabled by default for chart -->
 - [Water.css](https://github.com/kognise/water.css) for default styling
 - Includes csv, json, and svg imports by default
 - Configured to make easy deployment to Github Pages
+- Tailwind (WIP)
+<!-- - [LayerCake](https://layercake.graphics/) enabled by default for chart -->
 
 ## Quickstart
 
-<!-- New school: just click the `Use this template` button above.
-
-Old school:
-
-```bash
-# npx degit the-pudding/svelte-starter my-project
-``` -->
-
-Clone and run:
+Click the `Use this template` button above, then run:
 
 ```bash
 npm install
@@ -49,6 +42,8 @@ make github
 ```
 
 ## Style
+
+**_REWRITE FOR TAILWIND_**
 
 There are a few stylesheets included by default in `template.html`. Modify `global.css` variables to make changes to Water.css defaults.
 
@@ -105,3 +100,5 @@ Any @html tags, e.g., `{@html user}` must be the child of a dom element so they 
 - [x] Add in basic DF css and clean up globals for water
 - [x] Google Fonts script
 - [x] Makefile
+- [ ] Tailwind
+- Add VS Code setup to Readme
