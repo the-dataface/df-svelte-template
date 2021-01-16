@@ -22,8 +22,9 @@
   @tailwind utilities;
 
   @layer base {
-    h1 {
+    /* h1 {
       @apply text-3xl;
+      @apply font-bold;
     }
 
     h2 {
@@ -42,6 +43,21 @@
     h5 {
       @apply text-base;
       @apply font-bold;
-    }
+    } */
+  }
+
+  .skip-to-main {
+    border: none;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .skip-to-main:focus {
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    z-index: 1000;
   }
 </style>

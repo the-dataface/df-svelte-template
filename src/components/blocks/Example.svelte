@@ -4,12 +4,19 @@
   import markup from "../../assets/copy/markup.json";
 </script>
 
-<section class="max-w-md mx-auto my-16 p-8 bg-gray-100 rounded-xl shadow-lg">
-  <h1>{markup.headline}</h1>
+<section
+  class="prose max-w-4xl mx-auto my-16 p-8 bg-gray-100 rounded-md shadow-md transition-all hover:shadow-lg"
+>
+  <h1 class="mb-4">{markup.headline}</h1>
 
-  <p>
+  <p class="mb-2">
     Hello svelter! Here is an inline svg icon:
-    <Icon class="inline-block" name="feather" strokeWidth="1" stroke="orange" />
+    <Icon
+      className="inline-block"
+      name="feather"
+      strokeWidth="1"
+      stroke="orange"
+    />
   </p>
 
   {#each markup.lead as { value }}

@@ -4,6 +4,7 @@
   export const directions = ["n", "ne", "e", "se", "s", "sw", "w", "nw"];
 
   export let name;
+  export let className;
   export let direction = "n";
   export let strokeWidth;
   export let stroke;
@@ -13,6 +14,7 @@
   $: if (icon) {
     if (stroke) icon.attrs["stroke"] = stroke;
     if (strokeWidth) icon.attrs["stroke-width"] = strokeWidth;
+    icon.attrs["class"] = `${icon.attrs["class"]} ${className}`;
   }
 </script>
 

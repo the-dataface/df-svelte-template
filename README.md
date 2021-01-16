@@ -8,7 +8,6 @@ Adapted from The Pudding's [starter template](https://github.com/the-pudding/sve
 
 - [Feather Icons](https://github.com/feathericons/feather) for simple/easy svg icons
 - [ArchieML](http://archieml.org/) for micro-CMS powered by Google Docs
-- [Water.css](https://github.com/kognise/water.css) for default styling
 - Includes csv, json, and svg imports by default
 - Configured to make easy deployment to Github Pages
 - Tailwind (WIP)
@@ -43,28 +42,11 @@ make github
 
 ## Style
 
-**_REWRITE FOR TAILWIND_**
+We use [Tailwind.css](https://tailwindcss.com/) with some custom theme settings set up in `tailwind.config.js`. This means that all the default classes from Tailwind are available within our template, and we only compile what we use. Dive into the [Tailwind docs](https://tailwindcss.com/docs/) to learn more about using responsive classes, hover and focus states, dark mode, and more.
 
-There are a few stylesheets included by default in `template.html`. Modify `global.css` variables to make changes to Water.css defaults.
+I'd suggest using the Tailwind VS Code extension to help you get started.
 
-You can use scss in your svelte files.
-
-```bash
-<style type="text/scss">
-// import our mixins or specific helper files like "df-flex" like this
-  @import "../../styles/_helpers.scss";
-  @import "../../styles/_breakpoints.scss";
-  @import "../../styles/df-flex.scss";
-
-  // use our sass helper for $mobile or $tablet breakpoints
-  @include respond-to($mobile) {
-
-  }
-
-// use global variables like this
-color: var(--purple);
-</style>
-```
+We use the Tailwind typography plugin to automatically create beautiful typestacks. To use it, simply add the `prose` class to any element with text.
 
 #### Fonts
 
@@ -90,6 +72,10 @@ Running `npm run fetch:doc` at any point (even in new tab while server is runnin
 
 Running `npm run fetch:sheet` at any point (even in new tab while server is running) will pull down the latest, and output a file to `src/data/sheet.json` (or customize in the config file).
 
+## Utilities
+
+We've included some basic utilities in `src/utils`, like `camelize`, `random`, `move`, and `screenSize`. Import them into your svelte files to use them and feel free to add more.
+
 ## Notes
 
 Any @html tags, e.g., `{@html user}` must be the child of a dom element so they can be properly hydrated.
@@ -100,5 +86,5 @@ Any @html tags, e.g., `{@html user}` must be the child of a dom element so they 
 - [x] Add in basic DF css and clean up globals for water
 - [x] Google Fonts script
 - [x] Makefile
-- [ ] Tailwind
-- Add VS Code setup to Readme
+- [x] Tailwind
+- [ ] Add VS Code setup to Readme
