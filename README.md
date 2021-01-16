@@ -30,6 +30,8 @@ To start the dev server:
 npm run dev
 ```
 
+It takes a sec to get started. Working on that.
+
 Modify content in `src` and `public/assets`.
 
 ## Deploy

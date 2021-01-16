@@ -12,6 +12,9 @@ module.exports = {
   purge: {
     content: ["./src/**/*.svelte", "./src/*.html", "./public/index.html"],
     enabled: production,
+    options: {
+      safelist: [],
+    },
   },
   darkMode: false, // or 'media' or 'class',
   theme: {
