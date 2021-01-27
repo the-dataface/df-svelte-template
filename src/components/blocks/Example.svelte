@@ -25,7 +25,4 @@
 </section>
 
 <style type="text/scss">
-  h1 {
-    // font-size: 200px;
-  }
 </style>

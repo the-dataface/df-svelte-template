@@ -50,6 +50,8 @@ I'd suggest using the Tailwind VS Code extension to help you get started.
 
 We use the Tailwind typography plugin to automatically create beautiful typestacks. To use it, simply add the `prose` class to any element with text.
 
+Update theme options like fonts, colour palettes, default font sizes, and screensizes in `tailwind.config.js`. [See here for more](https://tailwindcss.com/docs/theme).
+
 #### Fonts
 
 Add google fonts and weights by editing `config.json` and then rerunning `npm run build` and `npm run dev`.
