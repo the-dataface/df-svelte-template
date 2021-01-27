@@ -8,10 +8,12 @@ import svg from "rollup-plugin-svg";
 import json from "@rollup/plugin-json";
 import dsv from "@rollup/plugin-dsv";
 import execute from "rollup-plugin-execute";
+import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 
 const isWatch = !!process.env.ROLLUP_WATCH,
   isLiveReload = !!process.env.LIVERELOAD,
+  // isLiveReload = true,
   isDev = isWatch || isLiveReload,
   isProduction = !isDev,
   isHot = isWatch && !isLiveReload;

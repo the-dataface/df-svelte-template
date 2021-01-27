@@ -7,9 +7,9 @@
 <section
   class="prose max-w-4xl mx-auto my-16 p-8 bg-gray-100 rounded-md shadow-md transition-all hover:shadow-lg"
 >
-  <h1 class="mb-4">{markup.headline}</h1>
+  <h1>{markup.headline}</h1>
 
-  <p class="mb-2">
+  <p>
     Hello svelter! Here is an inline svg icon:
     <Icon
       className="inline-block"
@@ -25,4 +25,7 @@
 </section>
 
 <style type="text/scss">
+  h1 {
+    // font-size: 200px;
+  }
 </style>
