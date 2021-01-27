@@ -91,4 +91,5 @@ Any @html tags, e.g., `{@html user}` must be the child of a dom element so they 
 - [x] Google Fonts script
 - [x] Makefile
 - [x] Tailwind
+- [x] Live reload
 - [ ] Add VS Code setup to Readme
