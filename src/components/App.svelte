@@ -1,17 +1,28 @@
 <script>
+  import { onMount } from "svelte";
   import Meta from "./Meta.svelte";
   import Example from "./blocks/Example.svelte";
   import Header from "./blocks/Header.svelte";
   import Footer from "./blocks/Footer.svelte";
+
+  let mounted = false;
+
+  onMount(() => {
+    mounted = true;
+  });
 </script>
 
-<Meta />
+{#if mounted}
+  <Meta />
 
-<Header />
+  <Header />
 
-<Example />
+  <p>Mounted = {mounted}</p>
 
-<Footer />
+  <Example />
+
+  <Footer />
+{/if}
 
 <style global lang="postcss">
   /* purgecss start ignore */
